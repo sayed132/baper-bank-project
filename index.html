@@ -8,19 +8,22 @@
 </head>
 <body>
     <header>
-        <h1 class="text-5xl text-center mt-6">
-            welcome to yore <span class="font-semibold text-voilet-600">dad's bank</span>
+        <h1 class="text-5xl text-center mt-6 font-bold">
+            welcome to yore <span class=" text-purple-600 text-voilet-600">dad's bank</span>
         </h1>
     </header>
 
-    <main class="container">
-        <section>
-            <div >
-                <p><input type="email" name="email" id="email"></p>
-                <p><input type="password" name="password" id="password"></p>
-                <p><input type="button" value="Login"></p>
+    <main>
+        <section class="bg-blue-300 mx-auto w-9/12 mt-12 p-6">
+            <h3 class="text-3xl uppercase font-semibold mb-6">please login me</h3>
+            <div>
+                <input class="w-9/12 block mb-4 rounded-sm p-2" type="email" name="email" id="email" placeholder="typing your email">
+                <input class="w-9/12 block mb-4 rounded-sm p-2" type="password" name="password" id="password" placeholder="inter your password">
+                <button id="login-btn" class="bg-orange-700 text-white px-8 py-2 font-semibold rounded-sm hover:bg-sky-700">Submit</button>
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

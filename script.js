@@ -6,9 +6,10 @@ document.getElementById("login-btn").addEventListener('click', function(){
    console.log("email:",email, "password:",password);
 
    if (email === "baper@bank.com" && password === "baper chele") {
-    console.log("valid user");
+    alert("welcome user")
+    window.location.href = "bank.html";
    }
    else{
-    console.log("invalid user");
+    alert("oh man it's not valid")
    }
 })

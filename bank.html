@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="mt-12">
+        <h2 class="text-5xl font-bold text-center">let's get some <span class="text-purple-600">mooooony</span></h2>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-green-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-yellow-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <h2 class="text-5xl">$00</h2>
+                </div>
+                <div class="bg-blue-400 p-8 rounded-xl">
+                    <h4 class="text-2xl">Balance</h4>
+                    <h2 class="text-5xl">$2400</h2>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-purple-400 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4">Deposit</h4>
+                    <input class="w-9/12 block mb-4 rounded-sm p-2 text-red-600 font-semibold" type="text" name="deposit" id="deposit-field"
+                        placeholder="$ amount what you want deposit here?">
+                    <button id="deposit-btn"
+                        class="bg-sky-700 text-white px-8 py-2 font-semibold rounded-sm hover:bg-blue-700">Submit</button>
+                </div>
+                <div class="bg-sky-300 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4">Withdraw</h4>
+                    <input class="w-9/12 block mb-4 rounded-sm p-2 text-red-600 font-semibold" type="text" name="withdraw" id="withdraw-field"
+                        placeholder="$ amount what you want withdraw?">
+                    <button id="withdraw-tn"
+                        class="bg-blue-700 text-white px-8 py-2 font-semibold rounded-sm hover:bg-sky-700">Withdraw</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
